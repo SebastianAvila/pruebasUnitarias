@@ -1,4 +1,12 @@
+
 {
+
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    },
+
     "require": {
         "phpunit/phpunit": "~9.5.8"
     }
