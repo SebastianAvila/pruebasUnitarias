@@ -13,10 +13,20 @@ class OperationTest extends TestCase {
         
     }
 
-    public function test1 (){
+    public function test_obtiene_materia (){
 
-        $this-> assertEquals( 1, $this->op ->getMateria(1));
+        $this-> assertEquals( '[{"id":"1","nombre":"filosofia cuantica"}]', $this->op ->getMateria(1));
     }
+/   public function test_coloca_materia (){
+
+        $this-> assertEquals( 'matematicas', $this->op ->setMateria('matematicas'));
+    }
+
+ /* public function test_obtiene_todas_las_materias (){
+
+        $this-> assertEquals( '', $this->op ->getMateria(''));
+    }*/
+    
 }
 
 
