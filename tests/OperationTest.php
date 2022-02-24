@@ -17,7 +17,8 @@ class OperationTest extends TestCase {
 
         $this-> assertEquals( '[{"id":"1","nombre":"filosofia cuantica"}]', $this->op ->getMateria(1));
     }
-/   public function test_coloca_materia (){
+
+    public function test_coloca_materia (){
 
         $this-> assertEquals( 'matematicas', $this->op ->setMateria('matematicas'));
     }
