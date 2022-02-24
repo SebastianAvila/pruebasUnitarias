@@ -12,7 +12,7 @@ class MateriasManager{
     private $dbManager;
     private static $_instance;
 
-    private function __construct(){
+    public function __construct(){
         $this->dbManager = DataBaseManager::getInstance();
     }
 
@@ -22,6 +22,8 @@ class MateriasManager{
          * */
         //$this->dbManager->close();
         self::$_instance = null;
+
+        
     }
 
     public static function getInstance(){

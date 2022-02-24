@@ -1,1 +1,1 @@
-{"version":1,"defects":{"OperationsTest::test1":4,"OperationTest::test1":4},"times":{"OperationsTest::test1":0.048,"OperationTest::test1":0.061}}
+{"version":1,"defects":{"OperationsTest::test1":4,"OperationTest::test1":3,"OperationTest::test_coloca_materia":3,"OperationTest::test_obtiene_materia":4,"OperationTest::test_obtiene_todas_las_materias":4},"times":{"OperationsTest::test1":0.048,"OperationTest::test1":0.062,"OperationTest::test_obtiene_materia":0.182,"OperationTest::test_coloca_materia":0.026,"OperationTest::test_obtiene_todas_las_materias":0.006}}
